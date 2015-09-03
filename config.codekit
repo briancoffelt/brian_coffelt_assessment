@@ -2730,17 +2730,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/test.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 348583,
-		"inputAbbreviatedPath": "\/img\/test.jpg",
-		"outputAbbreviatedPath": "\/img\/test.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/the_kraken.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

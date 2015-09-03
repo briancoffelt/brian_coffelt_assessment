@@ -6241,3 +6241,37 @@ section.template-examples h2, section.template-examples p, section.template-exam
 
 section.contact-form h2, section.contact-form p {
   color: #FFFFFF; }
+
+section.greeting h1 {
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+section.greeting p {
+  margin-top: 200px;
+  margin-bottom: 20px; }
+
+section.greeting img {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+section.greeting.btn-danger {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+section.mobile-features {
+  margin-top: 10px;
+  margin-bottom: 100px; }
+
+section.product-features {
+  margin-top: 50px; }
+
+div.description.text-center {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+h2.title.text-center {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+section.company-staff {
+  margin-bottom: 50px; }
