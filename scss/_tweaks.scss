@@ -24,27 +24,27 @@ a {
 }
 
 section.greeting, section.product-features, section.recommendations, section.template-examples, section.contact-form,    {
-	background-color: #303D50;
+	background-color: #303d50;
 }
 
 section.greeting h1, section.greeting p {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 section.product-features h2, section.product-features p,  section.product-features a {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 section.recommendations h2, section.recommendations p {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 section.template-examples h2, section.template-examples p, section.template-examples a {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 section.contact-form h2, section.contact-form p {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 section.greeting h1 {
@@ -76,8 +76,28 @@ section.product-features {
 	margin-top: 50px;
 }
 
+section.product-features div.row {
+	margin-bottom: 50px;
+}
+
+section.portfolio div.row {
+	margin-bottom: 50px;
+}
+
+section.recommendations div.row {
+	margin-bottom: 50px;
+}
+
+section.payment-plans div.panel-body {
+	margin-bottom: 50px;
+}
+
 div.description.text-center {
 	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+div.description-famous.text-center {
 	margin-bottom: 50px;
 }
 
@@ -88,4 +108,50 @@ h2.title.text-center {
 
 section.company-staff {
 	margin-bottom: 50px;
+	max-width: 100%;
+	width: auto;
+	}
+
+div.img-responsive {
+	margin-top: 50px;
+}
+
+div.text.col-md-6 {
+	margin-bottom: 30px;
+}
+
+section.contact-form div.section-content {
+	margin-bottom: 50px;
+}
+
+section.portfolio div.col-md-3.col-sm-6 {
+	margin-bottom: 20px;
+}
+
+footer li {
+	display: inline;
+}
+
+.social-media a {
+	display: inline-block;
+	border-radius: 20px;
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	text-align: center;
+	background: #3b5998; 
+}
+
+.social-media li.facebook a {
+	background: #3b5998;
+}
+
+.social-media li.twitter a {
+	background: #00aced;
+}
+
+.social-media li.google-plus a {
+	background: #dd4b39;
 }
