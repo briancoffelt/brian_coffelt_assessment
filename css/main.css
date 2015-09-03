@@ -6203,3 +6203,41 @@ button.close {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1); }
 
 /*# sourceMappingURL=bootstrap-theme.css.map */
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px; }
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px; }
+
+h3.name {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px; }
+
+a {
+  color: inherit; }
+
+section.greeting, section.product-features, section.recommendations, section.template-examples, section.contact-form {
+  background-color: #303D50; }
+
+section.greeting h1, section.greeting p {
+  color: #FFFFFF; }
+
+section.product-features h2, section.product-features p, section.product-features a {
+  color: #FFFFFF; }
+
+section.recommendations h2, section.recommendations p {
+  color: #FFFFFF; }
+
+section.template-examples h2, section.template-examples p, section.template-examples a {
+  color: #FFFFFF; }
+
+section.contact-form h2, section.contact-form p {
+  color: #FFFFFF; }
