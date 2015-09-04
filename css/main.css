@@ -6305,8 +6305,13 @@ section.contact-form div.section-content {
 section.portfolio div.col-md-3.col-sm-6 {
   margin-bottom: 20px; }
 
+section.company-staff li {
+  display: inline;
+  margin: 8px 4px; }
+
 footer li {
-  display: inline; }
+  display: inline;
+  margin: 8px 4px; }
 
 .social-media a {
   display: inline-block;
@@ -6316,8 +6321,7 @@ footer li {
   height: 40px;
   line-height: 40px;
   font-size: 15px;
-  text-align: center;
-  background: #3b5998; }
+  text-align: center; }
 
 .social-media li.facebook a {
   background: #3b5998; }
