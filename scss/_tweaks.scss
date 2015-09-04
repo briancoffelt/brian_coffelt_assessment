@@ -64,11 +64,6 @@ section.greeting img {
 	margin-bottom: 30px;
 }
 
-section.greeting.btn-danger {
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
-
 section.mobile-features {
 	margin-top: 10px;
 	margin-bottom: 100px;
@@ -152,6 +147,11 @@ div.text.col-md-6 {
 
 section.greeting .btn-danger {
   border-radius: 9999px;
+}
+
+section.greeting.btn-danger {
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 section.portfolio img {
