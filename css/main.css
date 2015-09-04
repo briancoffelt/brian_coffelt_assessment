@@ -6222,7 +6222,11 @@ h3.name {
   line-height: 25px; }
 
 a {
-  color: inherit; }
+  color: inherit;
+  text-decoration: none; }
+
+section.mobile-features h3:hover {
+  color: #e74c3c; }
 
 section.greeting, section.product-features, section.recommendations, section.template-examples, section.contact-form {
   background-color: #303d50; }
@@ -6302,7 +6306,10 @@ div.text.col-md-6 {
 section.contact-form div.section-content {
   margin-bottom: 50px; }
 
-section.portfolio div.col-md-3.col-sm-6 {
+section.recommendations div.col-md-7 {
+  margin-left: 175px; }
+
+section.recommendations img {
   margin-bottom: 20px; }
 
 section.company-staff li {
