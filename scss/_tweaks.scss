@@ -1,3 +1,5 @@
+// Fonts
+
 h1 {
 	font-family:'Poiret One', cursive;
 	text-transform: uppercase;
@@ -19,40 +21,33 @@ h3.name {
 	line-height: 25px;
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-section.mobile-features h3:hover {
-	color: #e74c3c;
-}
-
-
+// Colors
 
 section.greeting, section.product-features, section.recommendations, section.template-examples, section.contact-form,    {
 	background-color: #303d50;
 }
 
 section.greeting h1, section.greeting p {
-	color: #ffffff;
+	color: #fff;
 }
 
 section.product-features h2, section.product-features p,  section.product-features a {
-	color: #ffffff;
+	color: #fff;
 }
 
 section.recommendations h2, section.recommendations p {
-	color: #ffffff;
+	color: #fff;
 }
 
 section.template-examples h2, section.template-examples p, section.template-examples a {
-	color: #ffffff;
+	color: #fff;
 }
 
 section.contact-form h2, section.contact-form p {
-	color: #ffffff;
+	color: #fff;
 }
+
+// Margins
 
 section.greeting h1 {
 	margin-top: 50px;
@@ -95,8 +90,36 @@ section.recommendations div.row {
 	margin-bottom: 50px;
 }
 
+section.recommendations div.col-md-7 {
+	margin-left: 175px;
+}
+
+section.recommendations img {
+	margin-bottom: 20px;
+}
+
 section.payment-plans div.panel-body {
 	margin-bottom: 50px;
+}
+
+section.company-staff {
+	margin-bottom: 50px;
+	max-width: 100%;
+	width: auto;
+	}
+
+section.company-staff li {
+	margin: 8px 4px;
+	display: inline;
+}
+
+section.contact-form div.section-content {
+	margin-bottom: 50px;
+}
+
+footer li {
+	margin: 8px 4px;
+	display: inline;
 }
 
 div.description.text-center {
@@ -113,12 +136,6 @@ h2.title.text-center {
 	margin-bottom: 50px;
 }
 
-section.company-staff {
-	margin-bottom: 50px;
-	max-width: 100%;
-	width: auto;
-	}
-
 div.img-responsive {
 	margin-top: 50px;
 }
@@ -127,27 +144,49 @@ div.text.col-md-6 {
 	margin-bottom: 30px;
 }
 
-section.contact-form div.section-content {
-	margin-bottom: 50px;
+// Buttons
+
+section.greeting .btn-danger {
+  border-radius: 9999px;
 }
 
-section.recommendations div.col-md-7 {
-	margin-left: 175px;
+section.portfolio img {
+  margin-bottom: 20px;
 }
 
-section.recommendations img {
-	margin-bottom: 20px;
+section.payment-plans .btn-danger {
+  margin-bottom: 20px;
 }
 
-section.company-staff li {
-	display: inline;
-	margin: 8px 4px;
+// Links
+
+a {
+  color: inherit;
+  -webkit-transition: .70s;
+}
+a:hover {
+  color: #f55b5e;
 }
 
-footer li {
-	display: inline;
-	margin: 8px 4px;
+section.product-features a {
+  color: #fff;
+  -webkit-transition: .70s;
 }
+
+section.product-features a:hover {
+  color: #f55b5e;
+}
+
+section.template-examples a {
+  color: #fff;
+  -webkit-transition: .70s;
+}
+
+section.template-examples a:hover {
+  color: #f55b5e;
+}
+
+// Social Media Icons
 
 .social-media a {
 	display: inline-block;
@@ -172,3 +211,10 @@ footer li {
 	background: #dd4b39;
 }
 
+div.social-media {
+	padding-right: 45px;
+	margin-top: 30px;
+}
+footer.credits {
+	margin-bottom: 30px;
+}
